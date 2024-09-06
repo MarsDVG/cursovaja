@@ -136,7 +136,7 @@ header{
     justify-content: space-between;
     align-items: center;
     border: 1px solid #000;
-    background-color: #fcf4e9;
+    background-color: #FCF9F2;
 }
 .imgsection3{
     content: url(../images/section4img.png);
@@ -166,7 +166,7 @@ header{
 }
 .section4{
     border: 1px solid #000;
-    background-color: #fcf4e9;
+    background-color: #FCF9F2;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -180,12 +180,198 @@ header{
 }
 .section5{
     border: 1px solid #000;
-    background-color: #fcf4e9;
+    background-color: #FCF9F2;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px 0px;
     flex-direction: column;
-    gap: 25px;
+    gap: 45px;
+    padding-bottom: 150px;
+    padding-top: 70px;
+}
+.section5 h2{
+    font-size: 51px;
+    line-height: 60px;
+    font-weight: normal;
+}
+.section5 button{
+    padding: 14px 50px;
+    font-size: 14px;
+}
+.tovar-blocki{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    width: 70%;
+    gap: 50px;
+}
+.imgtovar1{
+    content: url(../images/section6img3.png);
+}
+.imgtovar2{
+    content: url(../images/section6img1.png);
+    position: relative;
+}
+.imgtovar3{
+    content: url(../images/section6img2.png);
+}
+.imgtovar4{
+    content: url(../images/section6img21.png);
+}
+.tovar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    position: relative;
+}
+.tovar h3{
+    font-size: 30px;
+}
+.tovar h4{
+    font-size: 23px;
+}
+.tovar p{
+    font-size: 18px;
+}
+.section6{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+
+}
+.section6 h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 20px 0px 20px 40px;
+}
+.blocki{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blocki-section6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.block6{
+    border: 0.5px solid #000;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    background-color: #FCF9F2;
+}
+.block6 p{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.imgblock61{
+    content: url(../images/crest.png);
+}
+.imgblock62{
+    content: url(../images/calendar.png);
+}
+.imgblock63{
+    content: url(../images/prish.png);
+}
+.imgblock64{
+    content: url(../images/clacs.png);
+}
+.imgblock65{
+    content: url(../images/tresh.png);
+}
+.imgblock66{
+    content: url(../images/lico.png);
+}
+.imgblock67{
+    content: url(../images/licoorish.png);
+}
+.imgblock68{
+    content: url(../images/licobito.png);
+}
+.imgblock69{
+    content: url(../images/chernicrov.png);
+}
+.imgblock60{
+    content: url(../images/crov.png);
+}
+.section7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    gap: 30px;
+    border: 1px solid #000;
+    width: 100%;
+    padding-bottom: 80px;
+    background-color: #FCF9F2;
+}
+.section7 button{
+    padding: 10px 90px;
+}
+.section7 p:first-child{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.section7 p{
+    font-size: 20px;
+    text-align: center;
+}
+.section7 h2{
+    font-size: 52px;
+    text-align: center;
+}
+.blocki-section7{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.block7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.imgblock71{
+    content: url(../images/ctoto.png);
+}
+.imgblock72{
+    content: url(../images/butilki.png);
+}
+.imgblock73{
+    content: url(../images/orange.png);
+}
+.section8{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+}
+.imgsection8{
+    content: url(../images/polukrug.png);
+}
+.text-section8{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 100px;
+    flex-direction: column;
 }
