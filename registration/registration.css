@@ -12,8 +12,8 @@ a {
     display: inline-block;
     margin-bottom: 20px;
     text-decoration: none;
-    color: #007bff;
-    border: 1px solid #007bff;
+    color: #ff8c00;
+    border: 1px solid #ff8c00;
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -27,7 +27,8 @@ form {
 
 form label {
     display: block;
-    color: #007bff;
+    color: #ff8c00;
+    text-align: center;
 }
 
 form input[type="text"],
@@ -38,7 +39,7 @@ form select {
     display: block;
     width: 97%;
     padding: 10px;
-    margin-top: 5px;
+    margin-top: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -49,15 +50,15 @@ form select {
 }
 
 #manualPasswordFields input[type="password"] {
-    width: 48%;
+    width: 80%;
 }
 
 form button[type="submit"] {
     display: block;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     margin-top: 20px;
-    background-color: #007bff;
+    background-color: #ff8c00;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -70,9 +71,9 @@ form button[type="submit"]:hover {
 
 form button[type="button"] {
     display: block;
-    width: 50%;
+    width: 100%;
     padding: 10px;
-    margin-top: 5px;
+    margin-top: 15px;
     background-color: #ccc;
     color: #333;
     border: none;
@@ -99,5 +100,5 @@ form button[type="button"]:hover {
     color: red;
 }
 #registerForm{
-    width: 40%;
+    width: 20%;
 }
