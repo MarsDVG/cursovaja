@@ -128,6 +128,9 @@ header{
     padding: 12px 20px; 
     font-size: 14px; 
 }
+.dark .backfooter{
+  background-color: #1a0e0914;
+}
 .section1 >div p{
     font-size: 18px;
 }
@@ -158,6 +161,9 @@ header{
     padding-top: 100px;
     gap: 150px;
     padding-bottom: 50px;
+}
+.dark .blockcosmetic{
+  background-color: #1a0e0914;
 }
 .blockcosno{
     display: flex;

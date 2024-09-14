@@ -160,7 +160,18 @@
         "itkfs": "In the kits for sensitive skin we have included products with<br>the most neutral and mild ingredients. Because for<br>sensitive skin the rule “less is more” works perfectly.<br>Sensitive skin can be both oily and dry, and we also<br>took this into account.",
         "kfsp": "Kits for specific problems",
         "wamssfs": "We also made several sets for specific problems, <br>to begin with we took the most common ones: age-related<br>changes, acne and skin dullness. Our special pride is the <br>set for aging skin. In it we have collected products that, on the<br>one hand, slow down skin aging and rejuvenate, and on the other hand, help the skin cope with its tasks.",
-        "feswh": "For each set we have prepared detailed descriptions and<br>instructions for use, which will make using them even easier. We hope you enjoy it."
+        "feswh": "For each set we have prepared detailed descriptions and<br>instructions for use, which will make using them even easier. We hope you enjoy it.",
+        "abi": "Atolla: Beauty in every drop",
+        "fila": "<strong>Foundation (2010):</strong> In 2010, Lauren, a cosmetologist with extensive experience in the beauty industry, opened Atolla with a dream of creating something unique. Her goal was not just to sell cosmetics, but to help people find personalized skin care solutions.",
+        "dsotnf": "<strong>Development stage (2012-2015):</strong> Over the next few years, Atolla became a popular destination for beauty enthusiasts. The store was known for its innovative approach to skincare: each customer underwent a skin scan, which was used to create personalized products. Lauren and her team of estheticians were actively developing, studying the latest technologies and ingredients.",
+        "secity": "<strong>Skincare Expertise Center (2016-2020):</strong> Over the years, Atolla has become more than just a store, but a true skincare expertise center. The store not only offers products, but also skincare consultations, training customers on proper skincare techniques, and regular skincare improvement events.",
+        "bilbah": "<strong>Beauty Industry Leader (2021-2024):</strong> By 2021, Atolla had become one of the leaders in the beauty industry due to its innovative approach and high level of service. The store offered a wide range of personalized products including serums, creams, masks and more, developed using advanced technology and high-quality ingredients.",
+        "pr": "Product range:",
+        "ps": "Personalized serums",
+        "mcal": "Moisturizing creams and lotions",
+        "cles": "Cleansers",
+        "spp": "Sun protection products",
+        "ecp": "Eye care products"
     },
     "ru": {
         "prod": "ПРОДУКЦИЯ",
@@ -323,6 +334,17 @@
         "itkfs": "В наборы для чувствительной кожи мы положили средства с<br>самыми нейтральными и мягкими составами. Потому что для<br>чувствительной кожи отлично работает правило “меньше-лучше”.<br>Чувствительная кожа может быть и жирной, и сухой, и это мы тоже<br>учли.",
         "kfsp": "Наборы для определённых проблем",
         "wamssfs": "Ещё мы сделали несколько наборов для определённых проблем,<br>для начала мы взяли самые распространённые: возрастные<br>изменения, акне и тусклость кожи. Наша особенная гордость -<br>набор для возрастной кожи. В нём мы собрали средства, которые, с<br>одной стороны, замедляют старение кожи и омолаживают, а с<br>другой - помогают коже самой справляться со своими задачами.",
-        "feswh": "К каждому набору мы подготовили подробные описания и<br>инструкции по применению, благодаря которым пользоваться ими<br>станет ещё проще. Надеемся, что вам понравится."
+        "feswh": "К каждому набору мы подготовили подробные описания и<br>инструкции по применению, благодаря которым пользоваться ими<br>станет ещё проще. Надеемся, что вам понравится.",
+        "abi": "Atolla: Красота в каждой капле",
+        "fila": "<strong>Основание (2010 год):</strong> В 2010 году Лорен, косметолог с богатым опытом работы в индустрии красоты, открыла магазин Atolla с мечтой о создании чего-то уникального. Ее целью было не просто продавать косметику, а помогать людям найти индивидуальные решения для ухода за кожей.",
+        "dsotnf": "<strong>Этап развития (2012-2015 годы):</strong> В течение следующих лет Atolla стал популярным местом среди ценителей красоты. Магазин был известен своим инновационным подходом к уходу за кожей: каждый клиент проходил сканирование кожи, на основе которого создавались персонализированные продукты. Лорен и ее команда косметологов активно развивались, изучая новейшие технологии и ингредиенты.",
+        "secity": "<strong>Экспертный центр по уходу за кожей (2016-2020 годы):</strong> С годами Atolla стал не просто магазином, а настоящим экспертным центром по уходу за кожей. Магазин предлагал не только продукцию, но и консультации по уходу за кожей, обучение клиентов правильным приемам ухода и регулярные мероприятия для улучшения кожи.",
+        "bilbah": "<strong>Лидер в индустрии красоты (2021-2024 годы):</strong> К 2021 году Atolla стал одним из лидеров в индустрии красоты благодаря своему инновационному подходу и высокому уровню обслуживания. Магазин предлагал широкий ассортимент персонализированных продуктов, включая сыворотки, кремы, маски и многое другое, разработанные с использованием передовых технологий и высококачественных ингредиентов.",
+        "pr": "Ассортимент товаров:",
+        "ps": "Персонализированные сыворотки",
+        "mcal": "Увлажняющие кремы и лосьоны",
+        "cles": "Очищающие средства",
+        "spp": "Защитные средства от солнца",
+        "ecp": "Средства для ухода вокруг глаз"
     }
   }

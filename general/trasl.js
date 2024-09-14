@@ -11,3 +11,7 @@ document.getElementById("gs").addEventListener("click", function() {
   document.getElementById("smr").addEventListener("click", function() {
     window.location.href = "../reviews/reviews.html";
   });
+  document.getElementById("abus").addEventListener("click", function() {
+    window.location.href = "../aboutus/about.html";
+  });
+

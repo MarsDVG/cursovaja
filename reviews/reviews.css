@@ -492,6 +492,9 @@ header{
 .dark .about-me{
   background-color: #ff8c0034
 }
+.dark .backfooter{
+  background-color: #1a0e0914;
+}
   @media(max-width: 1024px){
     body{
         width: 1024px;
