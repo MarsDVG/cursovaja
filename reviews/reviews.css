@@ -331,6 +331,167 @@ header{
     font-weight: normal;
     text-transform: uppercase;
   }
+  .dark .block-reviews{
+    background-color: #ff8c0034
+}
+.dark .bloki-reviews{
+  background-color: #1a0e0914;
+}
+.bloki-reviews{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #FCF9F2;
+}
+.reviews{
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.slid{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.block-reviews{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+  flex-direction: column;
+  width: 66%;
+  gap: 14px;
+}
+.photobio1{
+  content: url("../images/olivia.png");
+}
+.photobio2{
+  content: url("../images/briana.png");
+}
+.photobio3{
+  content: url("../images/jane.png");
+}
+.bio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.fio{
+  display: flex;
+  flex-direction: column;
+  gap: 7px
+}
+.crublock{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.leftblock{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px 20px;
+}
+.rightblock{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid #000;
+  padding: 5px 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.rewis{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+}
+.imgphoto{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #FCF9F2;
+}
+.blockimgphoto{
+  border: 1px solid #000;
+  width: 25%;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FCF9F2;
+}
+.zvezdi{
+  content: url("../images/zvezdi.png");
+}
+.closediv{
+  background-color: #EECFC5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.closediv p{
+  font-size: 18px;
+  line-height: 22px;
+  word-spacing: 4px;
+}
+.closediv a{
+  cursor: pointer;
+}
+.section1{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 30px;
+  background-image: url(../images/section1img.png);
+  width: 100%;
+  height: 400px;
+}
+.section1 >div{
+  padding-left: 50px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.section1 >div button{
+  width: 40%;
+  padding: 12px 20px; 
+  font-size: 14px; 
+}
+.section1 >div p{
+  font-size: 18px;
+}
+.section1 >div h1{
+  font-size: 50px;
+}
+.dark .about-me{
+  background-color: #ff8c0034
+}
   @media(max-width: 1024px){
     body{
         width: 1024px;
@@ -338,10 +499,23 @@ header{
     header{
         width: 94%;
     }
+    .block-reviews{
+      width: 62%;
+    }
+    .reviews{
+      width: 50%;
+    }
+    .bloki-reviews{
+      flex-direction: column;
+      gap: 30px;
+    }
   }
   @media(max-width: 768px){
     body{
         width: 768px;
+    }
+    .reviews{
+      width: 63%;
     }
     .header-nav {
         display: none;
@@ -406,6 +580,12 @@ header{
   @media(max-width: 425px){
     body{
         width: 425px;
+    }
+    .reviews{
+      width: 100%;
+    }
+    .block-reviews{
+      width: 71%;
     }
     .upfooter{
         flex-direction: column;

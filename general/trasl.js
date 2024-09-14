@@ -8,3 +8,6 @@ document.getElementById("gs").addEventListener("click", function() {
   document.getElementById("rmo").addEventListener("click", function() {
     window.location.href = "../readmero/readmore.html";
   });
+  document.getElementById("smr").addEventListener("click", function() {
+    window.location.href = "../reviews/reviews.html";
+  });

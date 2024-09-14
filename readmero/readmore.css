@@ -139,12 +139,42 @@ header{
 }
 .imgblockcosmetic1{
     content: url("../images/conc.png");
+    width: 30%;
 }
 .imgblockcosmetic2{
     content: url("../images/orange.png");
+    width: 30%;
 }
 .imgblockcosmetic3{
     content: url("../images/simplify.png");
+    width: 30%;
+}
+.blockcosmetic{
+    background-color: #FCF9F2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 100px;
+    gap: 150px;
+    padding-bottom: 50px;
+}
+.blockcosno{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40%;
+}
+.textblockcosmetic{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.blockcosno h2{
+    font-size: 30px;
+}
+.textblockcosmetic h3{
+    font-size: 20px;
 }
 .about-me {
     padding-top: 20px;
@@ -404,6 +434,14 @@ header{
     body{
         width: 768px;
     }
+    .blockcosmetic{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .imgblockcosmetic1, .imgblockcosmetic2, .imgblockcosmetic3{
+        width: 50%;
+    }
     .header-nav {
         display: none;
       }
@@ -463,10 +501,40 @@ header{
         text-decoration: none;
         color: #333;
       }
+      .blockcosno{
+        width: 80%;
+    }
+    .blockcosno h2{
+        font-size: 32px;
+    }
+    .textblockcosmetic{
+        width: 100%;
+    }
+    .textblockcosmetic p{
+        font-size: 22px;
+    }
+    .textblockcosmetic h3{
+        font-size: 26px;
+    }
   }
   @media(max-width: 425px){
     body{
         width: 425px;
+    }
+    .blockcosno{
+        width: 80%;
+    }
+    .blockcosno h2{
+        font-size: 36px;
+    }
+    .textblockcosmetic{
+        width: 100%;
+    }
+    .textblockcosmetic p{
+        font-size: 24px;
+    }
+    .textblockcosmetic h3{
+        font-size: 30px;
     }
     .upfooter{
         flex-direction: column;
