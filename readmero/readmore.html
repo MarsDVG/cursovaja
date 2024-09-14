@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="readmore.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <a class="atolla" href="../main/main.html"><img src="../images/atolla.png" alt="atolla"></a>
+        <div class="burger-menu" id="burgerMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="header-block1" id="headerBlock">
+            <nav class="header-nav">
+              <a href="#" id="prod"></a>
+              <a href="#" id="pla"></a>
+              <a href="#" id="ingr"></a>
+              <a href="#" id="hiw"></a>
+              <a href="#" id="abouta"></a>
+              <a href="#" id="blag"></a>
+              <span id="usernameDisplay" style="display: none;"></span>
+              <button class="styled-button" id="logout" style="display: none;"></button>
+              <button class="styled-button" id="languageButton" onclick="toggleLanguage()"></button>
+              <button class="styled-button" id="themeButton" onclick="toggleTheme()"></button>
+              <a id="gs"></a>
+              <a id="sign"></a>
+            </nav>
+          </div>
+    </header>
+    <main>
+        <div class="closediv">
+            <p id="procent"></p>
+            <a>X</a>
+        </div>
+        <div class="section1">
+            <div>
+                <p id="gssr"></p>
+                <h1 id="cus"></h1>
+            </div>
+        </div>
+        <div class="blockcosmetic">
+            <div class="imgblockcosmetic1"></div>
+            <div>
+                <h2 id="psc"></h2>
+                <div class="textblockcosmetic">
+                    <p id="pasc"></p>
+                    <h3 id="step1"></h3>
+                    <p id="tfsis"></p>
+                    <h3 id="step2"></h3>
+                    <p id="actsapat"></p>
+                    <h3 id="step3"></h3>
+                    <p id="saeacp"></p>
+                    <h3 id="step4"></h3>
+                    <p id="miseco"></p>
+                    <h3 id="step5"></h3>
+                    <p id="tsateiv"></p>
+                    <h3 id="step6"></h3>
+                    <p id="siaico"></p>
+                    <p id="paofsp"></p>
+                </div>
+            </div>
+        </div>
+        <div class="blockcosmetic">
+            <div class="imgblockcosmetic2"></div>
+            <div>
+                <h2 id="caai"></h2>
+                <div class="textblockcosmetic">
+                    <p id="hfwptaw"></p>
+                    <p id="tfaptmc"></p>
+                    <p id="tsiaoc"></p>
+                    <p id="ttaocicit"></p>
+                    <p id="afiaoc"></p>
+                    <p id="icscic"></p>
+                    <p id="ritais"></p>
+                    <p id="uscic"></p>
+                </div>
+            </div>
+        </div>
+        <div class="blockcosmetic">
+            <div class="imgblockcosmetic3"></div>
+            <h2 id="htssc"></h2>
+            <div class="textblockcosmetic">
+                <p id="cyocc"></p>
+                <h3 id="bsers"></h3>
+                <p id="bckaptn"></p>
+                <h3 id="kfss"></h3>
+                <p id="itkfs"></p>
+                <h3 id="kfsp"></h3>
+                <p id="wamssfs"></p>
+                <p id="feswh"></p>
+            </div>
+        </div>
+                  <div id="mapModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <div id="map"></div>
+                    </div>
+                  </div>
+        <div class="about-me" id="contacts">
+            <h2 id="oseb"></h2>
+            <ul>
+              <li>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
+              <li>Telephone: <a href="tel:+1234567890">+1234567890</a></li>
+              <li>Location: <a href="#" id="open-map">Map</a></li>
+              <li>GitHub: <a href="https://github.com/your-github-username" target="_blank">your-github-username</a></li>
+            </ul>
+          </div>
+        <div class="admin-only" style="display: none;">
+            <h2 id="amvw"></h2>
+            <p id="tcos"></p>
+          </div>
+    </main>
+    <footer>
+        <div class="upfooter">
+            <div class="firstupfooter">
+                <p id="newsl"></p>
+                <h2 id="stat"></h2>
+                <div class="email-container">
+                    <input type="email" class="email-input" placeholder="EMAIL ADDRESS">
+                    <button class="join-button" id="jnoi"></button>
+                  </div>
+            </div>
+            <div class="secondupfooter">
+                <ul>
+                    <li id="prsc"></li>
+                    <li id="plsb"></li>
+                    <li id="inges"></li>
+                    <li id="hiws"></li>
+                    <li id="ab"></li>
+                    <li id="rws"></li>
+                    <li id="bl"></li>
+                    <li id="faqq"></li>
+                </ul>
+            </div>
+            <div class="threeupfooter">
+                <div class="frontthreeupfooter">
+                    <div class="instfbtwit">
+                        <div class="imginst"></div>
+                        <p>INSTAGRAM</p>
+                    </div>
+                    <div class="instfbtwit">
+                        <div class="imgfb"></div>
+                        <p>FACEBOOK</p>
+                    </div>
+                    <div class="instfbtwit">
+                        <div class="imgtwit"></div>
+                        <p>TWITTER</p>
+                    </div>
+                </div>
+                <div class="backthreeupfooter">
+                    <p id="quest"></p>
+                    <p id="336w"></p>
+                </div>
+            </div>
+        </div>
+        <div class="backfooter">
+            <p>©2021 Atolla</p>
+            <div class="backbfooter">
+                <ul>
+                    <li id="shng"></li>
+                    <li id="rp"></li>
+                </ul>
+                <ul>
+                    <li id="tos"></li>
+                    <li id="priv"></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="../general/translation.js"></script>
+    <script src="../general/map.js"></script>
+    <script src="../general/burger.js"></script>
+    <script src="../general/trasl.js"></script>
+    <script src="../general/tema.js"></script>
+</body>
+</html>

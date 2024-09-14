@@ -1,7 +1,7 @@
 var translations = {};
 
 function loadTranslations() {
-  return fetch('translation.json')
+  return fetch('../general/translation.json')
     .then(response => response.json())
     .then(data => {
       translations = data;
