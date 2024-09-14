@@ -7,6 +7,10 @@ body{
     width: 1440px;
     gap: 20px;
 }
+body.dark {
+    background-color: #1a0e09bb; 
+    color: #fff;
+}
 a, p, h1, h2, h3, h4, b{
     margin: 0;
 }
@@ -45,6 +49,18 @@ header{
 }
 .header-nav a{
     cursor: pointer;
+}
+.dark .styled-button{
+    background-color: #ff8c0080;
+}
+.dark .header-nav a{
+    color: #fff;
+}
+.dark .atolla img{
+    filter: invert(1);
+}
+.dark .closediv{
+    background-color: #eecfc54a;
 }
 .styled-button {
     background-color: #ff8c00; 
@@ -130,6 +146,48 @@ header{
 .section2 p{
     text-transform: uppercase;
     font-size: 16px;
+}
+.dark .section3{
+    background-color: #1a0e09bb;
+}
+.dark .section4{
+    background-color: #1a0e09bb;
+}
+.dark .section5{
+    background-color: #1a0e09bb;
+}
+.dark .section6{
+    background-color: #1a0e09bb;
+}
+.dark .section7{
+    background-color: #1a0e09bb;
+}
+.dark .section8{
+    background-color: #1a0e09bb;
+}
+.dark .section9{
+    background-color: #1a0e09bb;
+}
+.dark .section10{
+    background-color: #1a0e09bb;
+}
+.dark .section11{
+    background-color: #1a0e09bb;
+}
+.dark .imgphoto{
+    filter: invert(1);
+}
+.dark .block-reviews{
+    background-color: #ff8c0034
+}
+.dark .block6{
+    background-color: #ff8c0034
+}
+.dark .about-me{
+    background-color: #ff8c0034
+}
+.dark .backfooter{
+    background-color: #ff8c0034;
 }
 .section3{
     width: 100%;
