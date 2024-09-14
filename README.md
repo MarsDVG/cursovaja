@@ -1,2 +1,2 @@
 # cursovaja
-https://MarsDVG.github.io/cursovaja/main/main.html
+https://MarsDVG.github.io/cursovaja/main/main/main.html
