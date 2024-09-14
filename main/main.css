@@ -6,6 +6,7 @@ body{
     flex-direction: column;
     width: 1440px;
     gap: 20px;
+    position: relative;
 }
 body.dark {
     background-color: #1a0e09bb; 
@@ -21,6 +22,7 @@ main{
     flex-direction: column;
     width: 94%;
     border: 1px solid #000;
+    
 }
 header{
     display: flex;
@@ -44,8 +46,18 @@ header{
     font-size: 14px;
     text-transform: uppercase;
 }
+.header-nav a:hover {
+    color: rgb(255, 208, 0);
+}
+.closediv p {
+    animation: move 2s infinite alternate;
+}
+@keyframes move {
+    from { transform: translateX(0); }
+    to { transform: translateX(50px); }
+}
 #gs{
-    color: #E38C00;
+    color: #ff8c0080;
 }
 .header-nav a{
     cursor: pointer;
@@ -59,6 +71,10 @@ header{
 .dark .atolla img{
     filter: invert(1);
 }
+.atolla:hover {
+    transform: scale(1.2);
+}
+
 .dark .closediv{
     background-color: #eecfc54a;
 }
@@ -116,6 +132,10 @@ header{
     background-image: url(../images/section1img.png);
     width: 100%;
     height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .section1 >div{
     padding-left: 50px;
@@ -432,6 +452,7 @@ header{
 .imgsection8{
     content: url(../images/polukrug.png);
     border: 1px solid #000;
+    filter: blur(1px);
 }
 .text-section8{
     width: 50%;
@@ -467,6 +488,7 @@ header{
     content: url(../images/image2.png);
     border: 1px solid #000;
     width: 49%;
+    outline: 2px dashed #000;
 }
 .text-section9{
     width: 50%;
@@ -556,6 +578,7 @@ header{
     flex-direction: column;
     width: 22%;
     gap: 14px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 .photobio1{
     content: url("../images/olivia.png");
@@ -767,6 +790,7 @@ header{
     width: 94%;
     border: 1px solid #000;
     flex-direction: column;
+    
   }
   .upfooter{
     display: flex;
@@ -866,8 +890,14 @@ header{
     content: url("../images/zvezdi.png");
   }
   .imginst{
-    content: url("../images/i");
+    content: url("../images/inst.png");
+    animation: blinkAnim 2s infinite;
   }
+
+    @keyframes blinkAnim {
+        0%, 29%, 40% { opacity: 1; }
+        20%, 49% { opacity: 0; }
+    }
   .backthreeupfooter{
     display: flex;
     justify-content: center;
@@ -882,21 +912,29 @@ header{
     font-size: 14px;
     line-height: 20px;
   }
-  .imginst{
-    content: url("../images/inst.png");
-  }
   .imgfb{
     content: url("../images/fb.png");
   }
   .imgtwit{
     content: url("../images/twit.png");
+    opacity: 0;
+    animation: fadeIn 2s forwards;
   }
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
   .instfbtwit{
     display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
+    transition: width 0.5s;
   }
+
+.instfbtwit:hover {
+    width: 200px;
+}
   .backfooter{
     display: flex;
     justify-content: space-between;
