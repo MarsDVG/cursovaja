@@ -437,6 +437,10 @@ header{
     body{
         width: 768px;
     }
+    .dark .header-block1.open{
+      background-color: #1a0e09bb; 
+      color: #fff;
+  }
     .header-nav {
         display: none;
       }

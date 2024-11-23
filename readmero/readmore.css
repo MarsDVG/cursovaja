@@ -466,6 +466,10 @@ header{
         right: 20px;
         z-index: 2;
       }
+      .dark .header-block1.open{
+        background-color: #1a0e09bb; 
+        color: #fff;
+    }
       .burger-menu span {
         display: block;
         width: 100%;
