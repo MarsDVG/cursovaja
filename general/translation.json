@@ -170,12 +170,16 @@
         "ps": "Personalized serums",
         "mcal": "Moisturizing creams and lotions",
         "cles": "Cleansers",
+        "pred": "Previous blocks",
+        "sled": "Next blocks",
         "spp": "Sun protection products",
         "ecp": "Eye care products"
     },
     "ru": {
         "prod": "ПРОДУКЦИЯ",
         "pla": "Планы",
+        "pred": "Предыдущие блоки",
+        "sled": "Следующие блоки",
         "ingr": "Ингредиенты",
         "hiw": "Как это работает",
         "abouta": "О нас",
