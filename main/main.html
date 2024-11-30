@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <a class="atolla" href="../main/main.html"><img src="../images/atolla.png" alt="atolla"></a>
+        <div class="burger-menu" id="burgerMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="header-block1" id="headerBlock">
+            <nav class="header-nav">
+              <a href="#prod28" id="prod"></a>
+              <a href="#pla28" id="pla"></a>
+              <a href="#ingr28" id="ingr"></a>
+              <a href="#hiw28" id="hiw"></a>
+              <a href="#abouta28" id="abouta"></a>
+              <a href="#blag28" id="blag"></a>
+              <span id="usernameDisplay" style="display: none;"></span>
+              <button class="styled-button" id="logout" style="display: none;"></button>
+              <button class="styled-button" id="languageButton" onclick="toggleLanguage()"></button>
+              <button class="styled-button" id="themeButton" onclick="toggleTheme()"></button>
+              <a id="gs"></a>
+              <a id="sign"></a>
+            </nav>
+          </div>
+    </header>
+    <main>
+        <div class="closediv">
+            <p id="procent"></p>
+            <a>X</a>
+        </div>
+        <div class="section1">
+            <div>
+                <p id="gssr"></p>
+                <h1 id="cus"></h1>
+                <button class="styled-button" id="ttq"></button>
+            </div>
+        </div>
+        <div class="section2" id="pla28">
+                <p id="veg"></p>
+                <p id="cru"></p>
+                <p id="alle"></p>
+                <p id="resp"></p>
+                <p id="naf"></p>
+        </div>
+        <div class="section3" id="abouta28">
+            <div class="imgsection3">
+            </div>
+            <div class="text-section3">
+                <p id="rein"></p>
+                <h2 id="domore"></h2>
+                <p id="were"></p>
+                <p id="ourper"></p>
+                <button class="styled-button" id="abus"></button>
+            </div>
+        </div>
+        <div class="section4">
+            <p id="mont"></p>
+        </div>
+        <div class="section5" id="prod28">
+            <h2 id="intato"></h2>
+            <button class="styled-button" id="cust"></button>
+            <div class="tovar-blocki">
+                <div class="tovar">
+                    <div class="imgtovar1">
+                    </div>
+                    <h3 id="rit"></h3>
+                    <h4 id="csm"></h4>
+                    <p id="compl"></p>
+                </div>
+                <div class="tovar">
+                    <div class="imgtovar2">
+                    </div>
+                    <h3 id="sert"></h3>
+                    <p id="adail"></p>
+                </div>
+                <div class="tovar">
+                    <div class="imgtovar3">
+                    </div>
+                    <h3 id="bust"></h3>
+                    <h4 id="semoi"></h4>
+                    <p id="buyou"></p>
+                </div>
+                <div class="tovar">
+                    <div class="imgtovar4">
+                    </div>
+                    <h3 id="bs"></h3>
+                    <h4 id="clse"></h4>
+                    <p id="agud"></p>
+                </div>
+            </div>
+        </div>
+        <div class="section6" id="ingr28">
+            <h3 id="custm"></h3>
+            <div class="blocki">
+                <div class="blocki-section6">
+                    <div class="block6">
+                        <div class="imgblock61"></div>
+                        <p id="rm"></p>
+                    </div>
+                    <div class="block6">
+                        <div class="imgblock62"></div>
+                        <p id="dsh"></p>
+                    </div>
+                    <div class="block6">
+                        <div class="imgblock63"></div>
+                        <p id="brk"></p>
+                    </div>
+                    <div class="block6">
+                        <div class="imgblock64"></div>
+                        <p id="disds"></p>
+                    </div>
+                    <div class="block6">
+                        <div class="imgblock65"></div>
+                        <p id="dry"></p>
+                    </div>
+                </div>
+                <div class="blocki-section6">
+                    <div class="block6">
+                        <div class="imgblock66"></div>
+                        <p id="resn"></p>
+                    </div>
+                    <div class="block6">
+                        <div class="imgblock67"></div>
+                        <p id="sd"></p>
+                    </div>
+                    <div class="block6">
+                        <div class="imgblock68"></div>
+                        <p id="wfl"></p>
+                    </div>
+                    <div class="block6">
+                        <div class="imgblock69"></div>
+                        <p id="clog"></p>
+                    </div>
+                    <div class="block6">
+                        <div class="imgblock60"></div>
+                        <p id="oil"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section7">
+            <p id="feat"></p>
+            <h2 id="iwymr"></h2>
+            <p id="ymaiysj"></p>
+            <button class="styled-button" id="gsta"></button>
+            <div class="blocki-section7">
+                <div class="block7">
+                    <div class="imgblock71"></div>
+                    <h4 id="st"></h4>
+                    <p id="athas"></p>
+                </div>
+                <div class="block7">
+                    <div class="imgblock72"></div>
+                    <h4 id="sm"></h4>
+                    <p id="datadriv"></p>
+                </div>
+                <div class="block7">
+                    <div class="imgblock73"></div>
+                    <h4 id="ea"></h4>
+                    <p id="15min"></p>
+                </div>
+            </div>
+        </div>
+        <div class="section8">
+            <div class="imgsection8"></div>
+            <div class="text-section8">
+                <h4 id="hiwww"></h4>
+                <p id="cycf"></p>
+                <p id="uyard"></p>
+                <p id="raa"></p>
+                <button class="styled-button" id="lm"></button>
+            </div>
+        </div>
+        <div class="section9">
+            <div class="text-section9">
+                <p id="sust"></p>
+                <h2 id="jwynwy"></h2>
+                <p id="bmasr"></p>
+                <p id="wayfm"></p>
+                <a id="sya"></a>
+            </div>
+            <div class="imgsection9"></div>
+        </div>
+        <div class="section10" id="blag28">
+            <div class="text-section10">
+                <p id="rewws"></p>
+                <h2 id="rprs"></h2>
+                <button class="styled-button" id="smr"></button>
+            </div>
+            <div class="bloki-reviews">
+                <div class="reviews">
+                    <div class="block-reviews">
+                        <div class="bio">
+                            <div class="photobio1">
+                            </div>
+                            <div class="fio">
+                                <p id="oliviag"></p>
+                                <p id="astori"></p>
+                            </div>
+                        </div>
+                        <div class="zvezdi"></div>
+                        <div class="ages">
+                            <p id="age25"></p>
+                        </div>
+                        <div class="rewis">
+                            <p id="ihu3"></p>
+                            <div class="crublock">
+                                <div class="leftblock">
+                                    <b id="ski"></b>
+                                    <p id="gals"></p>
+                                </div>
+                                <div class="rightblock">
+                                    <b id="clesa"></b>
+                                    <p id="smtoe"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-reviews">
+                        <div class="bio">
+                            <div class="photobio2">
+                            </div>
+                            <div class="fio">
+                                <p id="brianaa"></p>
+                                <p id="savannaga"></p>
+                            </div>
+                        </div>
+                        <div class="zvezdi"></div>
+                        <div class="ages">
+                            <p id="age20"></p>
+                        </div>
+                        <div class="rewis">
+                            <p id="ihaht"></p>
+                            <div class="crublock">
+                                <div class="leftblock">
+                                    <b id="niks"></b>
+                                    <p id="slaog"></p>
+                                </div>
+                                <div class="rightblock">
+                                    <p id="clea"></p>
+                                    <p id="clea1"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-reviews">
+                        <div class="bio">
+                            <div class="photobio3">
+                            </div>
+                            <div class="fio">
+                                <p id="janec"></p>
+                                <p id="bostonma"></p>
+                            </div>
+                        </div>
+                        <div class="zvezdi"></div>
+                        <div class="ages">
+                            <p id="age30"></p>
+                        </div>
+                        <div class="rewis">
+                            <p id="atapp"></p>
+                            <div class="crublock">
+                                <div class="leftblock">
+                                    <b id="skni"></b>
+                                    <p id="golas"></p>
+                                </div>
+                                <div class="rightblock">
+                                    <b id="calsho"></b>
+                                    <p id="clsk"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews">
+                    <div class="block-reviews">
+                        <div class="bio">
+                            <div class="photobio3">
+                            </div>
+                            <div class="fio">
+                                <p id="janec1"></p>
+                                <p id="bostonma"></p>
+                            </div>
+                        </div>
+                        <div class="zvezdi"></div>
+                        <div class="ages">
+                            <p id="age30"></p>
+                        </div>
+                        <div class="rewis">
+                            <p id="atapp"></p>
+                            <div class="crublock">
+                                <div class="leftblock">
+                                    <b id="skni"></b>
+                                    <p id="golas"></p>
+                                </div>
+                                <div class="rightblock">
+                                    <b id="calsho"></b>
+                                    <p id="clsk"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-reviews">
+                        <div class="bio">
+                            <div class="photobio1">
+                            </div>
+                            <div class="fio">
+                                <p id="oliviag"></p>
+                                <p id="astori"></p>
+                            </div>
+                        </div>
+                        <div class="zvezdi"></div>
+                        <div class="ages">
+                            <p id="age25"></p>
+                        </div>
+                        <div class="rewis">
+                            <p id="ihu3"></p>
+                            <div class="crublock">
+                                <div class="leftblock">
+                                    <b id="ski"></b>
+                                    <p id="gals"></p>
+                                </div>
+                                <div class="rightblock">
+                                    <b id="clesa"></b>
+                                    <p id="smtoe"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="block-reviews">
+                            <div class="bio">
+                                <div class="photobio2">
+                                </div>
+                                <div class="fio">
+                                    <p id="brianaa"></p>
+                                    <p id="savannaga"></p>
+                                </div>
+                            </div>
+                            <div class="zvezdi"></div>
+                            <div class="ages">
+                                <p id="age20"></p>
+                            </div>
+                            <div class="rewis">
+                                <p id="ihaht"></p>
+                                <div class="crublock">
+                                    <div class="leftblock">
+                                        <b id="niks"></b>
+                                        <p id="slaog"></p>
+                                    </div>
+                                    <div class="rightblock">
+                                        <p id="clea"></p>
+                                        <p id="clea1"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="reviews">
+                    <div class="block-reviews">
+                        <div class="bio">
+                            <div class="photobio3">
+                            </div>
+                            <div class="fio">
+                                <p id="janec2"></p>
+                                <p id="bostonma"></p>
+                            </div>
+                        </div>
+                        <div class="zvezdi"></div>
+                        <div class="ages">
+                            <p id="age30"></p>
+                        </div>
+                        <div class="rewis">
+                            <p id="atapp"></p>
+                            <div class="crublock">
+                                <div class="leftblock">
+                                    <b id="skni"></b>
+                                    <p id="golas"></p>
+                                </div>
+                                <div class="rightblock">
+                                    <b id="calsho"></b>
+                                    <p id="clsk"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-reviews">
+                        <div class="bio">
+                            <div class="photobio2">
+                            </div>
+                            <div class="fio">
+                                <p id="brianaa"></p>
+                                <p id="savannaga"></p>
+                            </div>
+                        </div>
+                        <div class="zvezdi"></div>
+                        <div class="ages">
+                            <p id="age20"></p>
+                        </div>
+                        <div class="rewis">
+                            <p id="ihaht"></p>
+                            <div class="crublock">
+                                <div class="leftblock">
+                                    <b id="niks"></b>
+                                    <p id="slaog"></p>
+                                </div>
+                                <div class="rightblock">
+                                    <p id="clea"></p>
+                                    <p id="clea1"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-reviews">
+                        <div class="bio">
+                            <div class="photobio1">
+                            </div>
+                            <div class="fio">
+                                <p id="oliviag"></p>
+                                <p id="astori"></p>
+                            </div>
+                        </div>
+                        <div class="zvezdi"></div>
+                        <div class="ages">
+                            <p id="age25"></p>
+                        </div>
+                        <div class="rewis">
+                            <p id="ihu3"></p>
+                            <div class="crublock">
+                                <div class="leftblock">
+                                    <b id="ski"></b>
+                                    <p id="gals"></p>
+                                </div>
+                                <div class="rightblock">
+                                    <b id="clesa"></b>
+                                    <p id="smtoe"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slid user-only" style="display: none;">
+                <button class="styled-button" onclick="prevSlide1()" id="pred">Предыдущие блоки</button>
+                <button class="styled-button" onclick="nextSlide1()" id="sled">Следующие блоки</button>
+              </div>
+        </div>
+        <div class="imgphoto">
+            <div class="blockimgphoto"><img src="../images/vogue.png"></div>
+            <div class="blockimgphoto"><img src="../images/refinery.png"></div>
+            <div class="blockimgphoto"><img src="../images/lg.png"></div>
+            <div class="blockimgphoto"><img src="../images/berdye.png"></div>
+        </div>
+        <div class="section11" id="hiw28">
+            <p id="blg"></p>
+            <h2 id="ftsl"></h2>
+            <button id="rmo" class="styled-button"></button>
+            <div class="blocki-section11">
+                <div class="block-section11">
+                    <div class="imgblock111"></div>
+                    <p id="ne"></p>
+                    <h3 id="htl"></h3>
+                </div>
+                <div class="block-section11">
+                    <div class="imgblock112"></div>
+                    <p id="ti"></p>
+                    <h3 id="hta"></h3>
+                </div>
+                <div class="block-section11">
+                    <div class="imgblock113"></div>
+                    <p id="rou"></p>
+                    <h3 id="hts"></h3>
+                </div>
+            </div>
+        </div>
+                  <div id="mapModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <div id="map"></div>
+                    </div>
+                  </div>
+        <div class="about-me" id="contacts">
+            <h2 id="oseb"></h2>
+            <ul>
+              <li>Email: <a href="mailto:arutyunyan067@mail.ru">arutyunyan067@mail.ru</a></li>
+              <li>Telephone: <a href="tel:+375 33 900 5707">+375 33 900 5707</a></li>
+              <li>Location: <a href="#" id="open-map">Map</a></li>
+              <li>GitHub: <a href="https://github.com/MarsDVG" target="_blank">MarsDVG</a></li>
+            </ul>
+            <div class="admin-only" style="display: none;">
+                <h2 id="amvw"></h2>
+                <p id="tcos"></p>
+              </div>
+          </div>
+    </main>
+    <footer>
+        <div class="upfooter">
+            <div class="firstupfooter">
+                <p id="newsl"></p>
+                <h2 id="stat"></h2>
+                <div class="email-container">
+                    <input type="email" class="email-input" placeholder="EMAIL ADDRESS">
+                    <button class="join-button" id="jnoi"></button>
+                  </div>
+            </div>
+            <div class="secondupfooter">
+                <ul>
+                    <li id="prsc"></li>
+                    <li id="plsb"></li>
+                    <li id="inges"></li>
+                    <li id="hiws"></li>
+                    <li id="ab"></li>
+                    <li id="rws"></li>
+                    <li id="bl"></li>
+                    <li id="faqq"></li>
+                </ul>
+            </div>
+            <div class="threeupfooter">
+                <div class="frontthreeupfooter">
+                    <div class="instfbtwit">
+                        <div class="imginst"></div>
+                        <p>INSTAGRAM</p>
+                    </div>
+                    <div class="instfbtwit">
+                        <div class="imgfb"></div>
+                        <p>FACEBOOK</p>
+                    </div>
+                    <div class="instfbtwit">
+                        <div class="imgtwit"></div>
+                        <p>TWITTER</p>
+                    </div>
+                </div>
+                <div class="backthreeupfooter">
+                    <p id="quest"></p>
+                    <p id="336w"></p>
+                </div>
+            </div>
+        </div>
+        <div class="backfooter">
+            <p>©2021 Atolla</p>
+            <div class="backbfooter">
+                <ul>
+                    <li id="shng"></li>
+                    <li id="rp"></li>
+                </ul>
+                <ul>
+                    <li id="tos"></li>
+                    <li id="priv"></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="slider.js"></script>
+    <script src="../general/translation.js"></script>
+    <script src="../general/map.js"></script>
+    <script src="../general/burger.js"></script>
+    <script src="../general/trasl.js"></script>
+    <script src="../general/tema.js"></script>
+    <script src="../registration/script.js"></script>
+</body>
+</html>
